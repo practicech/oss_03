@@ -1,51 +1,52 @@
 # oss_03분반
-안녕하세요
 
-**컴퓨터공학과 강성찬입니다**
+**Hello, I'm seongchan kang, my English name is Arthur**
 
-# 리눅스 프로세스 관리 명령어 조사 (과제 #2)
+# 🐧 Linux Process Commands Investigation (Assignment #2)
 
 ---
 
-## 1. 명령어 요약 (Table 활용)
+## 1. 🍋 Command Summary Table
 
-| 명령어 | 주요 기능 | 비고 |
+| Command | Key Feature ✨ | Note 📝 |
 | :--- | :--- | :--- |
-| **top** | 실시간 시스템 상태 및 프로세스 모니터링 | 윈도우 작업관리자와 유사 |
-| **ps** | 현재 실행 중인 프로세스 상태 확인 (스냅샷) | `ps -ef` 옵션 주로 사용 |
-| **jobs** | 백그라운드에서 실행 중인 작업 목록 확인 | 작업 번호 확인 가능 |
-| **kill** | 특정 프로세스에 시그널을 보내 종료 | PID(프로세스 ID) 필요 |
+| **top** | Real-time system & process monitoring ⚡ | Similar to Windows Task Manager |
+| **ps** | Check current process status (Snapshot) 📸 | Often used with `ps -ef` |
+| **jobs** | List background jobs 💼 | Check tasks running behind |
+| **kill** | Terminate a specific process 🛑 | Needs PID (Process ID) |
 
 ---
 
-## 2. 상세 설명 (Bullet 및 Image 활용)
+## 2. 🔍 Detailed Explanation
 
-### ① top (Table Of Processes)
-* **기능:** 시스템의 CPU, 메모리 사용량과 실행 중인 프로세스 순위를 **실시간**으로 보여줍니다.
-* **사용 예시:** 터미널에 `top` 입력
-* **실행 화면:**
-> *(여기에 직접 실습한 top 명령어 스크린샷을 넣으세요)*
+### ① top (Table Of Processes) 🚀
+* **What is it?:** Shows CPU, Memory usage, and process rankings in **Real-time**! It updates live like magic! ✨
+* **How to use:** Just type `top` in your terminal.
+* **Screenshot:**
+> *(Please insert your 'top' screenshot here!)*
 
-### ② ps (Process Status)
-* **기능:** 현재 순간의 프로세스 상태를 출력합니다.
-* **주요 옵션:**
-  * `-e`: 모든 프로세스 출력
-  * `-f`: 풀 포맷(자세히) 출력
-* **실행 화면:**
-> *(여기에 ps -ef 실행 스크린샷을 넣으세요)*
+### ② ps (Process Status) 📸
+* **What is it?:** Takes a **snapshot** of processes at this exact moment. Unlike `top`, it stays static.
+* **Useful Options:**
+  * `-e`: Show **E**verything (all processes).
+  * `-f`: **F**ull format (shows more details).
+* **Screenshot:**
+> *(Please insert your 'ps -ef' screenshot here!)*
 
-### ③ jobs
-* **기능:** 현재 쉘 세션에서 수행 중인 작업(Job)의 상태를 보여줍니다.
-  * `Running`: 실행 중
-  * `Stopped`: 정지됨
-  * `Terminated`: 종료됨
+### ③ jobs 💼
+* **What is it?:** Checks what work is running in the background of your current shell.
+  * `Running`: Working hard! 🏃‍♂️
+  * `Stopped`: Taking a break. ⏸️
+  * `Terminated`: All done! ✅
 
-### ④ kill
-* **기능:** 프로세스 식별자(PID)를 이용하여 프로세스를 종료합니다.
-* **주의사항:** 강제 종료가 필요할 때는 `-9` 옵션을 사용합니다. (예: `kill -9 1234`)
+### ④ kill 🔫
+* **What is it?:** Sends a signal to a process to say "Stop right now!".
+* **Caution:** If a program is frozen, use the `-9` option to **force kill** it! (e.g., `kill -9 1234`) 🔥
 
 ---
 
-## 3. 결론 및 느낀점
-* 이번 과제를 통해 리눅스에서 프로세스를 모니터링하고 제어하는 방법을 익혔습니다.
-* 특히 `kill` 명령어를 사용할 때는 PID를 정확히 확인해야 함을 알게 되었습니다.
+## 3. 💭 Conclusion & Thoughts
+
+* Through this assignment, I learned how to monitor and control processes in Linux! 😎
+* It was super useful to learn how to stop a frozen program using the `kill` command.
+* I will make sure to check the **PID** carefully before killing any process! 💖
